@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F10%2F04%2Farticle%2F</url>
+    <content type="text"><![CDATA[hexo常见操作hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo clean #清除部署緩存hexo n == hexo new #新建文章hexo g == hexo generate #生成静态页面至public目录hexo s == hexo server #开启预览访问端口（默认端口4000，可在浏览器输入localhost:4000预览）hexo d == hexo deploy #将.deploy目录部署到GitHubhexo g -d #生成加部署hexo g -s #生成加预览 next主题优化next风格选择next有四种风格，在主题配置文件_config.yml中搜索字段Scheme Settings 1234567891011# ---------------------------------------------------------------# Scheme Settingsicons: truebadges: true# ---------------------------------------------------------------# Schemes#scheme: Musescheme: Mist#scheme: Pisces#scheme: Gemini next菜单设置主题配置文件中搜索menu 123456789menu: home: / || home about: /about/ || user tags: /tags/ || tags categories: /categories/ || th archives: /archives/ || archive #schedule: /schedule/ || calendar #sitemap: /sitemap.xml || sitemap #commonweal: /404/ || heartbeat 默认只有首页和归档页面，其他的都需要手工创建 hexo new page “about” hexo new page “tags” hexo new page “categories”]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F10%2F03%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
